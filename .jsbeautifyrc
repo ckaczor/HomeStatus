@@ -1,0 +1,12 @@
+{
+	"css": {
+		"newline_between_rules": true,
+		"space_around_combinator": true,
+		"preserve_newlines": true,
+		"selector_separator_newline": true,
+		"end_with_newline": true
+	},
+	"html": {
+
+	}
+}

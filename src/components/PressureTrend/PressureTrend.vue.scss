@@ -1,0 +1,11 @@
+.pressure-arrow-container {
+    height: 100%;
+}
+
+.pressure-arrow {
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

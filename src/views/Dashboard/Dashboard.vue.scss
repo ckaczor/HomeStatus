@@ -1,0 +1,79 @@
+.vue-grid-item {
+    border-radius: 6px;
+}
+
+.vue-grid-item:not(.vue-grid-placeholder) {
+    border: 1px solid #dddddd;
+}
+
+#dashboard-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.button-icon {
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+.dashboard-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.dashboard-panel-header {
+    height: 26px;
+    min-height: 26px;
+    padding-right: 0;
+
+    & .title {
+        font-size: 10pt !important;
+    }
+
+    & button .icon {
+        font-size: 12pt;
+    }
+}
+
+.dashboard-panel-text {
+	padding: 6px 14px;
+	height: calc(100% - 34px);
+}
+
+.dashboard-panels-header {
+    height: 48px;
+    min-height: 48px;
+    padding-right: 0;
+}
+
+.dashboard-panels-text {
+	padding: 0;
+	height: 50vh;
+}
+
+.dashboard-panels-item {
+    padding: 10px 15px;
+    position: relative;
+
+    &:nth-child(2) {
+        background-color: #eee;
+    }
+}
+
+.dashboard-panels-item-name {
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.dashboard-panels-item-button {
+    position: absolute;
+    top: 12px;
+    right: 5px;
+}

@@ -1,0 +1,43 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+@import '@/../vuetify/dist/vuetify.min.css';
+
+html {
+	overflow: auto;
+}
+
+#app {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.view-container {
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.view-loading-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 998;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.view-loading-progress {
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 35%;
+	z-index: 999;
+	position: absolute;
+}
+
+.container {
+	position: relative;
+}

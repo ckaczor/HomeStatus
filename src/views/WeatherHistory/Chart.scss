@@ -1,0 +1,35 @@
+#chart-subtitle {
+    cursor: pointer;
+    color: #1976d2;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.chart-day-arrow {
+    position: relative;
+    top: -1px;
+    cursor: not-allowed;
+
+    &:hover:not(.disabled) {
+        text-decoration: underline;
+    }
+
+    &:not(.disabled) {
+        cursor: pointer;
+        color: #1976d2;
+    }
+}
+
+#chart-day-previous {
+    padding-right: 10px;
+}
+
+#chart-day-next {
+    padding-left: 10px;
+}
+
+.chart-settings {
+    margin-left: 250px;
+}
